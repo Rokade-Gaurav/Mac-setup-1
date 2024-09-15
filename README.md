@@ -55,7 +55,6 @@ tfenv install 1.8.1
 
 tfenv use 1.8 
 
-```markdown
 # Install AWS CLI
 brew install awscli
 
