@@ -43,3 +43,25 @@ echo "Please restart your terminal for the changes to take effect."
 - Ensure you have the necessary permissions to install software on your macOS.
 - Restart your terminal after running the script to apply the changes.
 ```
+
+# Install terraform
+brew install terraform
+
+brew unlink terraform
+
+brew install tfenv
+
+tfenv install 1.8.1
+
+tfenv use 1.8 
+
+```markdown
+# Install AWS CLI
+brew install awscli
+
+# Verify the installation
+aws --version
+
+# Configure AWS CLI
+aws configure
+```
